@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /api
+spring:
+  security:
+    user:
+      name: john
+      password: P@ssw0rd
+  devtools:
+    restart:
+      enable: true
